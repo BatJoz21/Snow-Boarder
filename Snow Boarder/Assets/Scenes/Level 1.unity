@@ -1243,7 +1243,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -1299,7 +1299,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -6111,6 +6111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reloadTime: 0.5
+  crashEffect: {fileID: 1051115760}
 --- !u!1 &1485013831
 GameObject:
   m_ObjectHideFlags: 0
@@ -6317,7 +6318,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -11290,3 +11291,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Level 2
   nextLevelTime: 0.5
+  finishEffect: {fileID: 1551147042}
