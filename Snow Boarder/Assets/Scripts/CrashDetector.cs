@@ -16,10 +16,10 @@ public class CrashDetector : MonoBehaviour
             crashEffect.Play();
             Invoke("ReloadScene", reloadTime);
         }
+    }
 
-        void ReloadScene()
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -17,10 +17,10 @@ public class FinishLine : MonoBehaviour
             finishEffect.Play();
             Invoke("NextLevel", nextLevelTime);
         }
+    }
 
-        void NextLevel()
-        {
-            SceneManager.LoadScene(levelName);
-        }
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(levelName);
     }
 }
