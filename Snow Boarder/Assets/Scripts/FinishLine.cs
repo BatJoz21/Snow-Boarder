@@ -15,6 +15,7 @@ public class FinishLine : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             finishEffect.Play();
+            GetComponent<AudioSource>().Play();
             Invoke("NextLevel", nextLevelTime);
         }
     }
