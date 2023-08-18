@@ -7542,6 +7542,7 @@ MonoBehaviour:
   reloadTime: 1.5
   crashEffect: {fileID: 1051115760}
   crashSfx: {fileID: 8300000, guid: e225281994b209a4dacd95c29c53c569, type: 3}
+  playerController: {fileID: 1124549150}
 --- !u!114 &1124549152
 MonoBehaviour:
   m_ObjectHideFlags: 0
