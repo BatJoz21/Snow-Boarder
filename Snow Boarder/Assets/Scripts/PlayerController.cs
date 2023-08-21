@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     SurfaceEffector2D surfaceEffector2D;
 
     [SerializeField] float torqueAmount = 1f;
-    [SerializeField] float boostSpeed = 30f;
-    [SerializeField] float baseSpeed = 20f;
+    [SerializeField] float boostSpeed = 100f;
+    [SerializeField] float baseSpeed = 50f;
     bool canMove = true;
 
     void Start()
